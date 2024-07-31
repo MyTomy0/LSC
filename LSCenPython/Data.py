@@ -5,36 +5,9 @@ import os
 # Importarr la clase
 import SeguimientoManos as sm
 
-# Creacion de la carpeta
-# nombre = 'Letra_A'
-# nombre = 'Letra_B'
-nombre = 'Letra_C'
-# nombre = 'Letra_D'
-# nombre = 'Letra_E'
-# nombre = 'Letra_F'
-# nombre = 'Letra_G'
-# nombre = 'Letra_H'
-# nombre = 'Letra_I'
-# nombre = 'Letra_J'
-# nombre = 'Letra_K'
-# nombre = 'Letra_L'
-# nombre = 'Letra_M'
-# nombre = 'Letra_N'
-# nombre = 'Letra_Ñ'
-# nombre = 'Letra_O'
-# nombre = 'Letra_P'
-# nombre = 'Letra_Q'
-# nombre = 'Letra_R'
-# nombre = 'Letra_S'
-# nombre = 'Letra_T'
-# nombre = 'Letra_U'
-# nombre = 'Letra_V'
-# nombre = 'Letra_W'
-# nombre = 'Letra_X'
-# nombre = 'Letra_Y'
-# nombre = 'Letra_Z'
+nombre = 'Letra_A'
 
-direccion = 'C:/Users/LENOVO/Documents/LSCenPython/data'
+direccion = 'C:/Users/Tomas/Documents/Lenguaje de programacion/LSC/data'
 carpeta = direccion + '/' + nombre
 
 # Si no esta creada la carpeta
@@ -82,34 +55,8 @@ while True:
         recorte = frame[ymin:ymax, xmin:xmax]
         
         # Almacenar nuestras imagenes
-        # cv2.imwrite(carpeta + "/A_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/B_{}.jpg".format(cont), recorte)
-        cv2.imwrite(carpeta + "/C_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/D_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/E_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/F_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/G_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/H_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/I_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/J_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/K_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/L_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/M_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/N_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/Ñ_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/O_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/P_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/Q_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/R_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/S_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/T_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/U_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/V_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/W_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/X_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/Y_{}.jpg".format(cont), recorte)
-        # cv2.imwrite(carpeta + "/Z_{}.jpg".format(cont), recorte)
-        
+        cv2.imwrite(carpeta + "/A_{}.jpg".format(cont), recorte)
+      
         # Aumentamos contador
         cont = cont + 1
         
